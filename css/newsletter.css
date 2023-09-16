@@ -454,7 +454,7 @@
       cursor: pointer;
       font-family: 'Open Sans', Arial, Helvetica, sans-serif;
       font-size: 14px !important;
-      font-weight: 700;
+     letter-spacing: 3px !important;
       line-height: 20px;
       margin: 0 !important;
       padding: 10px !important;
@@ -517,15 +517,16 @@
       width: 100%;
     }
     #mlb2-7730397.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button {
-      background-color: #0e4929 !important;
+      background-color: wheat!important;
       border: none !important;
       border-radius: 4px !important;
       box-shadow: none !important;
-      color: #ffffff !important;
+      color:black !important;
       cursor: pointer;
       font-family: 'Open Sans', Arial, Helvetica, sans-serif !important;
       font-size: 18px !important;
-      font-weight: 700 !important;
+      font-weight: thin !important;
+      letter-spacing: 3px !important;
       line-height: 21px !important;
       height: auto;
       padding: 12px !important;
