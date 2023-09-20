@@ -1700,6 +1700,7 @@ h1, .h1 {
 h2, .h2 {
     font-size: var(--text-xxl);
     line-height: calc(var(--vspace-1_25) + var(--vspace-0_125));
+    padding-left:10px;
 }
 
 h3, .h3 {
