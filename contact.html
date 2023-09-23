@@ -156,7 +156,8 @@
                                 </div>
                             </div> <!-- end s-content__blocks -->
 
-                            <form name="cForm" id="cForm" class="s-content__form" method="post" action="">
+                            <form onsubmit="sendEmail(); reset(); return false" name="cForm" id="cForm" class="s-content__form" method="post" action="">
+                           
                                 <fieldset>
 
                                     <div class="form-field">
@@ -167,9 +168,7 @@
                                         <input name="cEmail" type="text" id="cEmail" class="h-full-width h-remove-bottom" placeholder="Your Email" value="">
                                     </div>
 
-                                    <div class="form-field">
-                                        <input name="cWebsite" type="text" id="cWebsite" class="h-full-width h-remove-bottom" placeholder="Website"  value="">
-                                    </div>
+                                  
 
                                     <div class="message form-field">
                                         <textarea name="cMessage" id="cMessage" class="h-full-width" placeholder="Your Message" ></textarea>
@@ -293,7 +292,23 @@
     <script src="js/jquery-3.5.0.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail(){
+                    Email.send({
+            Host : " smtp.elasticemail.com ",
+            Username : "pablonigussie@gmail.com",
+            Password : "5F468344FFA4000F305F0A68189ADD1CE812",
+            To : 'zuretaddis@gmail.com',
+            From : document.getElementById("cEmail").value,
+            Subject : "New contact form Enquiry",
+            Body : "And this is the body"
+        }).then(
+        message => alert(message)
+        );
+        }
+    </script>
+ <!-- 41835bc4-50f9-470f-9d7f-ccfb29b2a838 -->
 </body>
 
 </html>

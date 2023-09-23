@@ -66,7 +66,7 @@
       letter-spacing: normal !important;
     }
     #mlb2-7730397.ml-form-embedContainer .ml-form-embedWrapper {
-      background-color: ;
+     
       
       border-width: 0px;
       border-color: transparent;
@@ -95,7 +95,7 @@
     }
     #mlb2-7730397.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody,
     #mlb2-7730397.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody {
-      padding: 20px 0;
+      padding:  0;
     }
     #mlb2-7730397.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody.ml-form-embedBodyHorizontal {
       padding-bottom: 0;
@@ -109,11 +109,11 @@
     #mlb2-7730397.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent h4 {
      color:white;
       font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-      font-size: 30px;
+      font-size: 16px;
       font-weight: 600;
       margin: 0 0 10px 0;
-      border-bottom: 2px solid #f9daa2;
-     
+      border-bottom: 1px solid #f9daa2;
+     padding-bottom: calc(0.75* 3.2rem);
       word-break: break-word;
     }
     #mlb2-7730397.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p,
@@ -204,16 +204,16 @@
         margin-bottom: var(--vspace-0_5);er
     }
     #mlb2-7730397.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input::-webkit-input-placeholder,
-    #mlb2-7730397.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input::-webkit-input-placeholder { color: #333333; }
+    #mlb2-7730397.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input::-webkit-input-placeholder { color: #c8c6c6; }
 
     #mlb2-7730397.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input::-moz-placeholder,
-    #mlb2-7730397.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input::-moz-placeholder { color: #333333; }
+    #mlb2-7730397.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input::-moz-placeholder { color: #c8c6c6; }
 
     #mlb2-7730397.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input:-ms-input-placeholder,
-    #mlb2-7730397.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input:-ms-input-placeholder { color: #333333; }
+    #mlb2-7730397.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input:-ms-input-placeholder { color: #c8c6c6; }
 
     #mlb2-7730397.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input:-moz-placeholder,
-    #mlb2-7730397.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input:-moz-placeholder { color: #333333; }
+    #mlb2-7730397.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input:-moz-placeholder { color: #c8c6c6; }
 
     #mlb2-7730397.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow textarea, #mlb2-7730397.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow textarea {
       background-color: #ffffff !important;
@@ -519,7 +519,7 @@
     #mlb2-7730397.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button {
       background-color: wheat!important;
       border: none !important;
-      border-radius: 4px !important;
+      border-radius: 0 !important;
       box-shadow: none !important;
       color:black !important;
       cursor: pointer;
@@ -529,7 +529,7 @@
       letter-spacing: 3px !important;
       line-height: 21px !important;
       height: auto;
-      padding: 12px !important;
+      padding: 15px 12px !important;
       width: 100% !important;
       box-sizing: border-box !important;
     }

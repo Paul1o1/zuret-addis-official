@@ -3209,6 +3209,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .bricks-wrapper .entry__thumb {
     overflow: hidden;
     position: relative;
+    text-align: center;
 }
 
 .bricks-wrapper .entry__thumb img {
@@ -4982,7 +4983,8 @@ body.search-is-visible {
 /* copyright
  * -------------------------------------- */
 .ss-copyright {
-    color: rgb(255, 255, 255);;
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
 
 .ss-copyright span {
